@@ -5,5 +5,8 @@
         "psr-4": {
             "BasicApp\\Bootstrap4Theme\\": ""
         }
+    },
+    "require": {
+        "bower-asset/bootstrap": "*"
     }
 }
