@@ -7,6 +7,6 @@
         }
     },
     "require": {
-        "bower-asset/bootstrap": "*"
+        "twbs/bootstrap": "*"
     }
 }
