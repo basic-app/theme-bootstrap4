@@ -1,5 +1,5 @@
-# Bootstrap 4 Theme
+# Bootstrap 4
 
-#### Basic App Module
+#### Basic App Theme
 
-A clean design theme on Bootstrap 4 for the public part of the site.
+Clean theme for Basic App based on Bootstrap 4.
