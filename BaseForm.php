@@ -6,8 +6,9 @@
  */
 namespace BasicApp\Bootstrap4Theme;
 
-class Theme extends BaseTheme
+abstract class BaseForm extends \BasicApp\Theme\Form
 {
 
-    const FORM = Form::class;
+    public $groupTemplate = '<div class="form-group"{attributes}>{label}<br>{input}</div>';
+
 }

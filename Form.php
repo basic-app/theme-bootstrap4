@@ -6,8 +6,6 @@
  */
 namespace BasicApp\Bootstrap4Theme;
 
-class Theme extends BaseTheme
+class Form extends BaseForm
 {
-
-    const FORM = Form::class;
 }
