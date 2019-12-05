@@ -9,6 +9,6 @@ namespace BasicApp\Bootstrap4Theme;
 abstract class BaseForm extends \BasicApp\Theme\Form
 {
 
-    public $groupTemplate = '<div class="form-group"{attributes}>{label}<br>{input}</div>';
+    public $groupTemplate = '<div class="form-group"{attributes}>{label}<br>{input}{hint}</div>';
 
 }
