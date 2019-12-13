@@ -10,4 +10,5 @@ class Theme extends BaseTheme
 {
 
     const FORM = Form::class;
+
 }
