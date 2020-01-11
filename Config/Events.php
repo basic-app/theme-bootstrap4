@@ -1,7 +1,9 @@
 <?php
 
 use BasicApp\System\SystemEvents;
+use BasicApp\Site\SiteEvents;
 use BasicApp\Helpers\CliHelper;
+use BasicApp\Bootstrap4Theme\Theme;
 
 SystemEvents::onUpdate(function()
 {
@@ -20,10 +22,10 @@ SystemEvents::onUpdate(function()
 
 });
 
-if (class_exists(SystemEvents::class))
+if (class_exists(SiteEvents::class))
 {
-    SystemEvents::onThemes(function($event)
+    SiteEvents::onThemes(function($event)
     {
-        $event->result[BasicApp\Bootstrap4Theme\Theme::class] = 'Bootstrap 4';
+        $event->result[Theme::class] = 'Bootstrap 4';
     });
 }
