@@ -8,7 +8,7 @@ namespace BasicApp\Bootstrap4Theme;
 
 use PhpTheme\Html\HtmlHelper;
 
-abstract class BaseTheme extends \PhpTheme\Bootstrap4\Theme implements \BasicApp\System\ThemeInterface
+abstract class BaseTheme extends \PhpTheme\Bootstrap4\Theme implements \BasicApp\Site\SiteThemeInterface
 {
 
     public $baseUrl = '/themes/bootstrap4';
