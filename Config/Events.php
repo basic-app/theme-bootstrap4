@@ -3,7 +3,7 @@
 use BasicApp\System\SystemEvents;
 use BasicApp\Site\SiteEvents;
 use BasicApp\Helpers\CliHelper;
-use BasicApp\Bootstrap4Theme\Theme;
+use BasicApp\Themes\Bootstrap4\SiteTheme;
 
 SystemEvents::onUpdate(function()
 {
@@ -26,6 +26,6 @@ if (class_exists(SiteEvents::class))
 {
     SiteEvents::onThemes(function($event)
     {
-        $event->result[Theme::class] = 'Bootstrap 4';
+        $event->result[SiteTheme::class] = 'Bootstrap 4';
     });
 }

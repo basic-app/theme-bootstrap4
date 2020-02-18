@@ -8,7 +8,7 @@ namespace BasicApp\Themes\Bootstrap4;
 
 use PhpTheme\Core\HtmlHelper;
 
-class Theme extends \PhpTheme\Bootstrap4\Theme implements \BasicApp\Site\SiteThemeInterface
+class Theme extends \PhpTheme\Bootstrap4\Theme
 {
 
     const FORM = Form::class;    
