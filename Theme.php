@@ -6,7 +6,7 @@
  */
 namespace BasicApp\Themes\Bootstrap4;
 
-use PhpTheme\Core\HtmlHelper;
+use BasicApp\Helpers\HtmlHelper;
 
 class Theme extends \PhpTheme\Themes\Bootstrap4\Theme
 {
