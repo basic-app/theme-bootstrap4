@@ -4,8 +4,11 @@
  * @license MIT
  * @link http://basic-app.com
  */
-namespace BasicApp\Bootstrap4Theme;
+namespace BasicApp\Themes\Bootstrap4;
 
-class Form extends BaseForm
+class Form extends \BasicApp\Theme\Form
 {
+
+    public $groupTemplate = '<div class="form-group"{attributes}>{label}<br>{input}{hint}</div>';
+
 }

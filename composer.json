@@ -3,11 +3,12 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "BasicApp\\Bootstrap4Theme\\": ""
+            "BasicApp\\Themes\\Bootstrap4\\": ""
         }
     },
     "require": {
         "twbs/bootstrap": "*",
-        "phptheme/bootstrap4": "*"
+        "phptheme/core": "*",
+        "phptheme/theme-bootstrap4": "*"
     }
 }
