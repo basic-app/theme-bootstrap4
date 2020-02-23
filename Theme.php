@@ -11,9 +11,11 @@ use BasicApp\Helpers\HtmlHelper;
 class Theme extends \PhpTheme\Themes\Bootstrap4\Theme
 {
 
-    const FORM = Form::class;    
+    const FORM = Form::class;
 
     public $baseUrl = '/themes/bootstrap4';
+
+    public $poweredBy = 'Powered by <a href="http://basic-app.com" target="_blank">Basic App</a>';
 
     public function __construct()
     {
