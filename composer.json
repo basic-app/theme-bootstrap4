@@ -7,7 +7,6 @@
         }
     },
     "require": {
-        "twbs/bootstrap": "*",
         "basic-app/core": "*",
         "phptheme/theme-bootstrap4": "*"
     }
