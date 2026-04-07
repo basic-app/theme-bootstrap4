@@ -8,6 +8,7 @@
     },
     "require": {
         "basic-app/core": "*",
-        "phptheme/theme-bootstrap4": "*"
+        "phptheme/theme-bootstrap4": "*",
+        "twbs/bootstrap": "^4"
     }
 }
